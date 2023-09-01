@@ -1,0 +1,15 @@
+{
+  "name": "finalca2",
+  "version": "1.0.0",
+  "description": "project for school",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd front && npm start\" \"cd back && npm start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
